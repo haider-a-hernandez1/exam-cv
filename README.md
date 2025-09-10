@@ -1,12 +1,28 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# exam.cm – CV Express
 
-Currently, two official plugins are available:
+Este proyecto es un prototipo web construido con **React** y **TailwindCSS** como parte del escenario "CV Express". Su objetivo es permitir que un reclutador visualice el perfil profesional de un candidato, sus experiencias laborales y estudios, y pueda marcar una experiencia como destacada.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Funcionalidades
 
-## Expanding the ESLint configuration
+- Visualización del perfil con imagen, nombre, profesión y descripción.
+- Listado de experiencias laborales (mínimo 3).
+- Listado de estudios académicos (mínimo 3).
+- Botón para seleccionar/deseleccionar una experiencia.
+- Panel resumen que muestra la experiencia seleccionada.
+- Renderizado condicional usando operador ternario.
+- Estado global levantado en el componente raíz (`App.jsx`).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologías
+
+- React
+- TailwindCSS
+- Vite
+
+## 📦 Instalación
+
+```bash
+npm install
+npm run dev
+
+>>>>>>> 822122bfac6c811c84c1bd3107cc453a7f38ce02
